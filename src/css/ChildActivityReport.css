@@ -1,0 +1,27 @@
+.chart-container {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .table-responsive {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
+  .text-secondary {
+    color: #6c757d !important;
+  }
+  

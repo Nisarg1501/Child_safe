@@ -1,0 +1,9 @@
+{
+    "globals": {
+      "chrome": "readonly"
+    },
+    "rules": {
+      "no-undef": "warn"
+    }
+  }
+  

@@ -1,0 +1,53 @@
+.login-page {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the login card */
+.login-card {
+  width: 80%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slightly transparent background */
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2; /* Make sure card is above the background */
+}
+
+/* Style the background image to cover the entire right side */
+.bg-image {
+  background-image: url("../img/login.jpg"); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height */
+  width: 100%; /* Full width */
+  position: absolute; /* Position it absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  z-index: 1; /* Behind the card */
+}
+
+/* Make sure background image is hidden on smaller screens */
+@media (max-width: 767px) {
+  .bg-image {
+    display: none; /* Hide background on mobile */
+  }
+}
+.forgot-password-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
