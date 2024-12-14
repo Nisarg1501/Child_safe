@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Parent Control Dashboard ",
+  "version": "1.0",
+  "description": "Parent block children for givent time from websites.",
+  "permissions": [
+    "windows",
+    "tabs",
+    "activeTab",
+    "storage",
+    "cookies",
+    "scripting",
+    "declarativeNetRequest",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open Large Window"
+  },
+  "host_permissions": ["<all_urls>"],
+
+}
